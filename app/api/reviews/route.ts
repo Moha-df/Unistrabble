@@ -5,6 +5,7 @@ import Review from '@/models/Review';
 // Récupérer tous les avis
 export async function GET() {
   try {
+    console.log('URI MongoDB:', process.env.MONGODB_URI ? 'Présent' : 'Manquant');
     console.log('Tentative de connexion à MongoDB...');
     await connectDB();
     console.log('Connexion à MongoDB réussie');
@@ -15,7 +16,7 @@ export async function GET() {
     
     return NextResponse.json(reviews);
   } catch (error) {
-    console.error('Erreur lors de la récupération des avis:', error);
+    console.error('Erreur détaillée:', error);
     return NextResponse.json(
       { error: 'Erreur lors de la récupération des avis' },
       { status: 500 }

@@ -86,7 +86,7 @@ export default function Credits() {
             Technologies Utilisées
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
-            {["Godot 4", "Python", "PostgreSql", "Bash", "Git", "Next.js", "MongoDB"].map(
+            {["Godot 4", "Python", "PostgreSql", "Bash", "Git", "Next.js", "React", "MongoDB"].map(
               (tech, index) => (
                 <div
                   key={index}

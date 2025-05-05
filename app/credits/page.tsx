@@ -47,8 +47,8 @@ export default function Credits() {
               <CardContent className="p-4">
                 <h3 className="font-bold text-lg text-white">{member.name}</h3>
                 <p className="text-slate-400">{member.role}</p>
-                {member.name === "Mohamed" && (
-                  <div className="flex mt-3">
+                <div className="flex mt-3 space-x-2">
+                  {member.name === "Mohamed" && (
                     <a
                       href="https://github.com/moha-df"
                       target="_blank"
@@ -57,8 +57,30 @@ export default function Credits() {
                     >
                       <Github className="h-5 w-5" />
                     </a>
-                  </div>
-                )}
+                  )}
+                  {member.name === "Ugo" && (
+                    <a
+                      href="https://www.linkedin.com/in/ugo-gumbinger-800747201"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-slate-400 hover:text-violet-400 transition-colors"
+                    >
+                      <Linkedin className="h-5 w-5" />
+                    </a>
+                  )}
+                  {member.name === "Ayoub 👑(mvp)" && (
+                    <a
+                      href="https://git.unistra.fr/aallali"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-slate-400 hover:text-violet-400 transition-colors"
+                    >
+                      <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z" />
+                      </svg>
+                    </a>
+                  )}
+                </div>
               </CardContent>
             </Card>
           ))}

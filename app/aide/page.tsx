@@ -59,10 +59,6 @@ export default function Aide() {
                       <span className="font-semibold">Premier lancement :</span> Au premier lancement, vous serez invité
                       à créer un compte ou à jouer en tant qu'invité.
                     </li>
-                    <li className="pl-2">
-                      <span className="font-semibold">Mise à jour :</span> Le jeu se mettra à jour automatiquement
-                      lorsque de nouvelles versions seront disponibles.
-                    </li>
                   </ol>
                 </CardContent>
               </Card>

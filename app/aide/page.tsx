@@ -488,7 +488,7 @@ export default function Aide() {
                     <div className="bg-slate-700/50 p-5 rounded-lg border border-slate-600/50">
                       <h3 className="text-xl font-semibold mb-3 text-fuchsia-300">7.2 Personnalisation</h3>
                       <p className="text-slate-300">
-                        Personnalisez votre expérience de jeu avec différents thèmes, sons et animations.
+                        Personnalisez votre expérience de jeu avec différents thèmes et volumes.
                       </p>
                     </div>
                   </div>

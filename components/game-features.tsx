@@ -8,7 +8,7 @@ export default function GameFeatures() {
     },
     {
       title: "Dictionnaire complet",
-      description: "Plus de 400 000 mots français reconnus et leurs définitions.",
+      description: "Le dictionnaire officiel de scrabble.",
     },
     {
       title: "Mise à jour régulière",

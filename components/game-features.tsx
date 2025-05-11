@@ -12,7 +12,7 @@ export default function GameFeatures() {
     },
     {
       title: "Mise à jour régulière",
-      description: "Nous nous engageons à amélioré le jeu dans les jours à venir.",
+      description: "Nous nous engageons à améliorer le jeu dans les jours à venir.",
     },
     {
       title: "Historique des parties",
@@ -24,7 +24,7 @@ export default function GameFeatures() {
     },
     {
       title: "Compte sécuriser",
-      description: "Des techniques avancés afin que vos données reste en sécurités",
+      description: "Des techniques avancées afin que vos données reste en sécurité",
     },
   ]
 

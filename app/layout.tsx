@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   icons: {
     icon: '/unistrabble_icon.png',
   },
+  verification: {
+    google: 'rP8c9GpCMkpt_VXxoGybCpLWS-ULugaT0ulo5gLHAA0',
+  },
 }
 
 export default function RootLayout({

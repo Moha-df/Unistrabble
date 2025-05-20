@@ -23,7 +23,7 @@ export default function Home() {
 
           {/* Download Buttons */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-3xl mb-12">
-            <Link href="/downloads/unistrabble-windows.zip" download>
+            <Link href="/downloads/export.zip" download>
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-violet-600 to-violet-800 hover:opacity-90 text-white border-0 shadow-lg shadow-violet-700/20 w-full"
@@ -32,7 +32,7 @@ export default function Home() {
                 Windows
               </Button>
             </Link>
-            <Link href="/downloads/unistrabble-linux.zip" download>
+            <Link href="/downloads/linuxExport.tar.gz" download>
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-violet-600 to-violet-800 hover:opacity-90 text-white border-0 shadow-lg shadow-violet-700/20 w-full"
